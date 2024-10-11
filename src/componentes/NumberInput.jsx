@@ -20,10 +20,10 @@ const NumberInput = () => {
                 numero 2:
                 <input name="numero2" value={numero2} onChange={handleChange} type="number" />
             </label>
-            <Resultado operacion="Suma" calculo={suma()} />
-            <Resultado operacion="Resta" calculo={resta()} />
-            <Resultado operacion="Multiplicación" calculo={multiplicacion()} />
-            <Resultado operacion="División" calculo={division()} />
+            <Resultado operacion="Suma: " calculo={suma()} />
+            <Resultado operacion="Resta: " calculo={resta()} />
+            <Resultado operacion="Multiplicación: " calculo={multiplicacion()} />
+            <Resultado operacion="División: " calculo={division()} />
         </>
     );
 };
